@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,c;
     a=5;
     b=6;
-    return a*b;
+    c=a*b;
+    printf("%d",c);
+    return 0;
 }
